@@ -1,10 +1,8 @@
 #include <pitches.h>
-
 int tuut = 1;
 int i = 1;
 int ruis = 1;
 int ruisfrequenz = 1;
-
 void duduuu() {
   tone(8, 250);
   delay(100);
@@ -68,8 +66,6 @@ void deuntje() {
   noTone(8);
   delay(125);
 }
-
-
 void startup() {
   duduuu();
   laden();
